@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Prisha Agarwal",
+  "github": "agarwal-prisha",
+  "lab1_scenario": "C",
+  "lab1_prompt": "You are a FAQ Bot reply at Samsung for new hires\n\nDraft a reply for the issue asked\n\nContext: A new campus recruit is enquiring about laptop provisioning\n\nConstraints: answer to the point instantly\n\nTone: helpful,not casual\n\nOutput format: ready to send reply with hyperlinks if needed",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 1,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "4299 was the answer and it gave a step by step reasoning even with a naive prompt(chatgpt)",
+  "lab2_cot_prompt": "Solve the following problem by breaking down the calculations step-by-step:How many Galaxy Buds units are available for sale by end of day given: starts at 4200, sends out 850, holds 6% of remaining stock, restocks 1150?",
+  "lab2_cot_output_summary": "1. Start with the initial inventory of Galaxy Buds.\n2. Remove the units that were sent out.\n3. Set aside 6% of the remaining inventory as held stock.\n4. Add the newly restocked units to the inventory available for sale.\n5. The final number of units available for sale by the end of the day is **4,299**.",
+  "better_approach": "naive",
+  "stretch_done": true,
+  "stretch_react_prompt": "You are an expert Financial Analysis AI operating in a strict ReAct (Reasoning and Acting) loop. Your task is to analyze and rebalance a specific investment portfolio.\n\nThe portfolio currently has an initial cost basis of exactly $100,000, previously split as 50% AAPL (Apple), 20% TSLA (Tesla), and 30% TLT (20+ Year Treasury Bond ETF). The client wants to rebalance this to a new target allocation of 40% AAPL, 30% TSLA, and 30% TLT based on today's current live market prices.\n\nYou must solve this step-by-step using the following strict format:\n\nThought: Explain your logical reasoning for the current step. What information do you currently have, and what specific data do you need next to proceed?\nAction: State the exact action you are taking.\nObservation: Provide the result of the action.\n\nCRITICAL INSTRUCTION ON TOOLS AND GUESSING:\nYou are strictly forbidden from guessing, estimating, or hallucinating current stock prices, exchange rates, trading fees, or complex calculations. You are an AI, not a live market feed or a calculator.\n\nWhenever you reach a point where you need real-world data or exact mathematics, your Action must be an explicit tool request, formatted exactly like this:\nAction: [TOOL REQUEST: Fetch live price for ticker AAPL]\nor\nAction: [CALCULATION REQUEST: Divide 40,000 by 175.43 to find share count]\n\nIf your Action is a Tool or Calculation Request, you must output your Action and then IMMEDIATELY STOP generating text. Do not write the Observation or the next Thought. Wait for me (the user) to provide the Observation with the real data. Do not invent numbers just to finish the task.\n\nBegin your first Thought now to start the portfolio analysis.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T09:56:05.436Z"
+}
