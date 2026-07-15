@@ -1,0 +1,20 @@
+{
+  "day": 3,
+  "student_name": "Prisha Agarwal",
+  "github": "agarwal-prisha",
+  "ir_hallucination_done": true,
+  "ir_bias_done": true,
+  "ir_guardrail_builder_done": true,
+  "ir_battle_complete": true,
+  "ir_battle_blocked": 8,
+  "ir_battle_total": 8,
+  "rag_scenario": "A",
+  "rag_no_rag_summary": "it looked online from Samsung websites and came up with the correct policy. It was confident and provided the sources",
+  "rag_grounded_summary": "It said the same thing, but with more explanation",
+  "rag_judgement": "no_difference",
+  "stretch_done": true,
+  "stretch_notes": "Tested it in Gemini, If I make it sound like a general question and put in info as a guess, it cites Samsung's website and tells me im wrong. But if I assert it with the RAG statement, it goes with it. \\nIf I make changes to the RAG data, it follows those changes too",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-15T06:29:19.755Z"
+}
