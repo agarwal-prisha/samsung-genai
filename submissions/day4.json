@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Prisha Agarwal",
+  "github": "agarwal-prisha",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "fabricated a policy"
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "sensitive employee data collected without consent"
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Accountability",
+      "justification": "ai company will be accountable for the loss caused"
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "disadvanted a protected group"
+    },
+    {
+      "id": "E",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Human Oversight",
+      "justification": "no effective human monitoring"
+    },
+    {
+      "id": "F",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Security",
+      "justification": "exploitation occured,enabled a fraudulent transacttion"
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Air Canada Chatbot",
+  "stretch_failure_type": "Hallucination",
+  "stretch_principle": "Reliability",
+  "stretch_notes": "Air Canada's customer service chatbot falsely told a passenger that they could claim a bereavement fare refund after purchasing a ticket, even though no such policy existed. The passenger relied on the chatbot's advice, and a Canadian tribunal later ruled that Air Canada was responsible for the chatbot's incorrect information and ordered the airline to compensate the customer. This is a clear case of hallucination because the AI confidently invented a policy, violating the principle of Reliability by providing inaccurate information that users trusted.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:18:20.524Z"
+}
